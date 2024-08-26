@@ -20,6 +20,8 @@ function HeroSection() {
         className="absolute -top-[98px] -z-10"
       />
 
+        {console.log(personalData.github)}
+
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
@@ -33,38 +35,38 @@ function HeroSection() {
 
           <div className="my-12 flex items-center gap-5">
             <Link
-              href={personalData.github}
+              href='https://github.com/tejasohol'
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsGithub size={30} />
             </Link>
             <Link
-              href={personalData.linkedIn}
+              href='https://github.com/tejasohol'
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsLinkedin size={30} />
             </Link>
             <Link
-              href={personalData.facebook}
+              href='https://github.com/tejasohol'
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaFacebook size={30} />
             </Link>
             <Link
-              href={personalData.leetcode}
+              href='https://github.com/tejasohol'
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
-              <SiLeetcode size={30} />
+              {/* <SiLeetcode size={30} />
             </Link>
             <Link
               href={personalData.twitter}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
-            >
+            > */}
               <FaTwitterSquare size={30} />
             </Link>
           </div>
@@ -108,7 +110,7 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Abu Said</span>
+                <span className="text-amber-300">Tejas Ohol</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
@@ -118,18 +120,18 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">NextJS</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Redux</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Express</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NestJS</span>
-                <span className="text-gray-400">{"', '"}</span>
+                {/* <span className="text-amber-300">Redux</span> */}
+                {/* <span className="text-gray-400">{"', '"}</span>  */}
+                 <span className="text-amber-300">Express</span>
+                 <span className="text-gray-400">{"', '"}</span>
+                {/* <span className="text-amber-300">NestJS</span> */}
+                {/* <span className="text-gray-400">{"', '"}</span> */}
                 <span className="text-amber-300">MySql</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MongoDB</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Docker</span>
-                <span className="text-gray-400">{"', '"}</span>
+                {/* <span className="text-amber-300">Docker</span> */}
+                {/* <span className="text-gray-400">{"', '"}</span>  */}
                 <span className="text-amber-300">AWS</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
