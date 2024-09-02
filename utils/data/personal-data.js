@@ -10,6 +10,6 @@ export const personalData = {
   facebook: 'https://www.facebook.com/',
   linkedIn: 'https://www.linkedin.com/in/tejas-ohol-96957b179/',
   twitter: 'https://x.com/Tejas_Ohol_0808',
-  devUsername: "said7388",
+  devUsername: "tejasohol",
   resume: "https://docs.google.com/file/d/1U1DIZ1EXz8e3AytOsst35XDy3v7bNld_/edit?usp=docslist_api&filetype=msword"
 }

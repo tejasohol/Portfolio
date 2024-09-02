@@ -42,21 +42,21 @@ function HeroSection() {
               <BsGithub size={30} />
             </Link>
             <Link
-              href='https://github.com/tejasohol'
+              href='https://www.linkedin.com/in/tejas-ohol-96957b179/'
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsLinkedin size={30} />
             </Link>
             <Link
-              href='https://github.com/tejasohol'
+              href='https://www.facebook.com/'
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaFacebook size={30} />
             </Link>
             <Link
-              href='https://github.com/tejasohol'
+              href='https://x.com/Tejas_Ohol_0808'
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >

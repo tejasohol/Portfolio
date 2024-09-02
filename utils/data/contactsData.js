@@ -7,5 +7,5 @@ export const contactsData = {
     linkedIn: 'https://www.linkedin.com/in/tejas-ohol-96957b179/',
     twitter: 'https://x.com/Tejas_Ohol_0808',
     
-    devUsername: "said7388"
+    devUsername: "tejasohol"
 }
